@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  font: normal normal normal 14px/37px FS Albert;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  
+  
+ 
+ 
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  position: sticky;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 1;
+}
+
+.navigation img {
+  margin-left: 210px;
+}
+
+.navigation ul {
+  display: flex;
+  padding: 0;
+  gap: 60px;
+  margin-left: 110px;
+}
+
+  .navigation ul li {
+    list-style: none;
+  }
+
+  .navigation ul li a {
+    text-align: left;
+    font: normal normal bold 14px/37px Fs Albert;
+    letter-spacing: 0px;
+    color: #232b76;
+    opacity: 1;
+    text-decoration: none;
+
+  }
+
+.webinar {
+  width: 100%;
+  height: 721px;
+  background: transparent url("img/Group 1671.png") 0% 0% no-repeat;
+  background-size: unset;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.webinar .event .next-webinar{
+  font: normal normal bold 21px/37px FS Albert;
+  letter-spacing: 0px;
+  color: #042164;
+
+}
+.webinar .event .event-name{
+  
+  top: 257px;
+  left: 210px;
+  width: 846px;
+  height: 107px;
+  text-align: left;
+  font: italic normal bold 40px/45px FS Albert;
+  letter-spacing: -0.36px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.webinar .event .lorem-text{
+
+  margin-bottom: 20px;
+  width: 711px;
+  height: 84px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 36px/43px FS Albert;
+  letter-spacing: 0px;
+  color: #232B76;
+  opacity: 1;
+}
+.webinar .event .wednesday{
+  
+  margin-bottom: 50px;
+width: 846px;
+height: 34px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 30px/57px FS Albert;
+letter-spacing: -0.27px;
+color: #FFFFFF;
+opacity: 1;
+}
+.webinar .event .date {
+  display: flex;
+  gap: 20px;
+}
+.webinar .event .date .date-item {
+  width: 85px;
+  height: 94px;
+  background: #232b76 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.webinar .event .date .date-item p {
+  color: #ffffff;
+  line-height: 0;
+  margin: 20px;
+}
+.webinar .event .date .date-item .rakam{
+  
+  
+  margin-bottom: 10px;
+  width: 40px;
+  height: 41px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 37px/58px FS Albert;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.webinar .event .date .date-item .yazi{
+  
+ 
+  margin-top: 2px;
+  width: 80px;
+  height: 35px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 15px FS Albert;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  
+
+}
+.webinar .button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.webinar .button-container button {
+  width: 320px;
+  height: 60px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.webinar .button-container .login {
+  background: transparent url("img/Group 1669.png") 0% 0% no-repeat;
+  background-size: cover;
+}
+
+.webinar .button-container .register {
+  background: transparent url("img/Group 1670.png") 0% 0% no-repeat;
+  background-size: cover;
+}
+
+.speaker-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker-container .text {
+  font: normal normal bold 40px/43px FS Albert;
+  letter-spacing: 0px;
+  color: #042164;
+  margin-top: 5%;
+}
+
+.speaker-container .button-container .date-button {
+  border-radius: 25px;
+  opacity: 1;
+  padding: 15px;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #232b76;
+  opacity: 1;
+  color: #232b76;
+  cursor: pointer;
+  margin-top: 4%;
+}
+
+.speaker-container .button-container .date-button:hover {
+  background: #232b76 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+.speaker-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.speaker-profiles .profile-card {
+  width: 22%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker-profiles .profile-card .profile-name {
+  margin: 3%;
+  text-align: center;
+font: normal normal bold 21px/37px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+}
+
+.speaker-profiles .profile-card .profile-description {
+  margin: 3%;
+  text-align: center;
+  text-align: center;
+font: normal normal normal 15px/18px FS Albert;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+.speaker-profiles .profile-card .profile-button-link {
+  margin: 2%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #042164;
+  color: #fff;
+  padding: 5%;
+  border-radius: 20px;
+  font-size: 14px;
+  width: 80px;
+}
+
+.visstream {
+  background: #f7f8fb 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visstream .container {
+  width: 40%;
+  padding-bottom: 5%;
+}
+
+.visstream h3 {
+  text-align: center;
+  font: normal normal bold 30px FS Albert;
+  letter-spacing: 0px;
+  color: #232b76;
+  opacity: 1;
+}
+
+.visstream p {
+  text-align: center;
+  font: normal normal normal 20px FS Albert;
+  letter-spacing: 0px;
+  color: #232b76;
+  opacity: 1;
+  margin-top: 5%;
+}
+.visstream hr {
+  width: 50%;
+  height: 0px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  border: 5px solid #042164;
+  opacity: 1;
+  margin-top: 5%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.info-container .item {
+  display: flex;
+  width: 50%;
+  margin-left: 20px;
+  
+  
+}
+
+.info-container .item img {
+  width: 55px;
+  height: 49px;
+  
+  margin-right: 7px;
+}
+.info-container .item-description {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  background: #e2f3fc 0% 0% no-repeat contain;
+  position: relative;
+}
+
+.item-description h3 {
+  
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  text-align: left;
+  font: normal normal bold 30px/43px FS Albert;
+  letter-spacing: 0px;
+  color: #232b76;
+  opacity: 1;
+}
+
+.item-description p {
+  
+  text-align: left;
+  font: normal normal normal 20px FS Albert;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
+}
+
+.item-description .ellipse {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e2f3fc;
+  position: absolute;
+  z-index: -1;
+  left: -5px;
+  top: -5px;
+}
+
+.upcoming-events {
+  background: #f7f8fb 0% 0% no-repeat padding-box;
+
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+ 
+}
+
+.upcoming-events .container{
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+.upcoming-events h1 {
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 40px/43px FS Albert;
+  letter-spacing: 0px;
+  color: #042164;
+  opacity: 1;
+}
+
+.event-card {
+  width: 300px !important;
+  height: 330px !important;
+  border-radius: 20px;
+ 
+  display: flex;
+  position: relative;
+  
+}
+
+
+.event-card-header {
+  
+  height: 67px;
+  /* UI Properties */
+  background: #232b76 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+
+  text-align: center;
+font: normal normal normal 20px/43px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+border: 2px solid green;
+}
+.event-card-header .monday{
+  
+  margin: 20px;
+  text-align: center;
+font: normal normal normal 20px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  
+}
+.event-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 5%;
+    text-align: center;
+font: normal normal normal 19px/24px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+}
+
+.event-card-body hr{
+ border: 1px solid #666666;
+ width: 100%;
+ margin-top: 5%;
+ text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+}
+
+.event-card-body p{
+    margin-top: 5%;
+}
+
+.event-card-body .event-card-footer {
+    display: flex;
+    gap: 5px;
+}
+
+.event-card-body .event-card-footer .register {
+    margin-top: 5%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    background: #009FE3 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #1490DF60;
+border-radius: 29px;
+opacity: 1;
+width: 107px;
+height: 45px;
+color: white;
+
+    
+}
+.event-card-body .event-card-footer .add{
+    margin-top: 5%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    background: #042164 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #1490DF60;
+border-radius: 29px;
+opacity: 1;
+color: white;
+width: 150px;
+height: 45px;
+
+}
+.myfooter{
+  
+  height: 85px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.myfooter .footer-img {
+  
+  padding: 10px;
+}
+.myfooter .footer-img .img{
+ 
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 40px;
+  
+}
+.myfooter .footer-img .footer-note{
+  position: absolute;
+margin-left:75%;
+margin-top: 1.7%;
+font: normal normal normal 14px FS Albert;
+color: #333333;
+
+}
