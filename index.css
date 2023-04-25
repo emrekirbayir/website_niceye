@@ -12,14 +12,11 @@ div {
 }
 
 body {
+  
   width: 100%;
   height: 100%;
   overflow-x: hidden;
   margin: 0;
-  
-  
- 
- 
 }
 
 p {
@@ -326,29 +323,26 @@ opacity: 1;
   padding-bottom: 5%;
 }
 
-.info-container .item {
-  display: flex;
-  width: 50%;
-  margin-left: 20px;
-  
-  
-}
+  .info-container .item {
+    display: flex;
+    width: 50%;
+    margin-left: 20px;
+  }
 
-.info-container .item img {
-  width: 55px;
-  height: 49px;
-  
-  margin-right: 7px;
-}
-.info-container .item-description {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  background: #e2f3fc 0% 0% no-repeat contain;
-  position: relative;
-}
+  .info-container .item img {
+    width: 55px;
+    height: 49px;
+    margin-right: 7px;
+  }
+  .info-container .item-description {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    background: #e2f3fc 0% 0% no-repeat contain;
+    position: relative;
+  }
 
 .item-description h3 {
   
